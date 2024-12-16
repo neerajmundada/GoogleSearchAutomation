@@ -267,7 +267,7 @@ public class FunctionalTests extends BaseTest {
         accountPage.confirmPassword(password);
         accountPage.clickNext();
 
-        String mobileNumber = "08031774972";
+        String mobileNumber = "01234567890";
         accountPage.enterMobileNumber(mobileNumber);
         accountPage.clickNext();
 
