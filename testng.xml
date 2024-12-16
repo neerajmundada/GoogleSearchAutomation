@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Google Search Automation Suite" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name="test.java.utils.TestListener" />
+    </listeners>
+
+    <test name="Functional Tests">
+        <classes>
+            <class name="test.java.tests.FunctionalTests" />
+        </classes>
+    </test>
+
+    <test name="Performance Tests">
+        <classes>
+            <class name="test.java.tests.PerformanceTests" />
+        </classes>
+    </test>
+
+    <test name="Security Tests">
+        <classes>
+            <class name="test.java.tests.SecurityTests" />
+        </classes>
+    </test>
+</suite>
